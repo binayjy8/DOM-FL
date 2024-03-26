@@ -3,6 +3,12 @@
 //     smallImage[i].src = "assets/spiderman_img.png";
 // }
 
-console.dir(document.querySelectorAll("p"));
+// console.dir(document.querySelectorAll("p"));
 
-console.dir(document.querySelectorAll("div a"));
+// console.dir(document.querySelectorAll("div a"));
+
+let links = document.querySelectorAll(".box a");
+
+for(link of links) {
+    link.style.color = "gray";
+}
