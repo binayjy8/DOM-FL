@@ -13,6 +13,3 @@ for(link of links) {
     link.style.color = "gray";
 }
 
-let val = 2;
-
-const cal = () => ;
