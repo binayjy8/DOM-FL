@@ -13,6 +13,6 @@
 //     link.style.color = "gray";
 // }
 
-let para = document.querySelector("p");
+let para = document.createElement("p");
 para.innerText = "hey i'm red";
 document.querySelector("body").append(para);
