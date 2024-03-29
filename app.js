@@ -7,8 +7,8 @@
 
 // console.dir(document.querySelectorAll("div a"));
 
-let links = document.querySelectorAll(".box a");
+// let links = document.querySelectorAll(".box a");
 
-for(link of links) {
-    link.style.color = "gray";
-}
+// for(link of links) {
+//     link.style.color = "gray";
+// }
