@@ -15,5 +15,4 @@
 
 let para = document.querySelector("p");
 para.innerText = "hey i'm red";
-
 document.querySelector("body").append(para);
