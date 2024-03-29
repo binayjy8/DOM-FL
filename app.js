@@ -12,3 +12,7 @@
 // for(link of links) {
 //     link.style.color = "gray";
 // }
+
+let para = document.querySelector("p");
+para.innerText = "hey i'm red";
+
