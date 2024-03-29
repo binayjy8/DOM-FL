@@ -14,7 +14,7 @@
 // }
 
 let para = document.createElement("p");
-para.innerText = "hey i'm red";
+para.innerText = "hey i'm red!";
 document.querySelector("body").append(para);
 
 para.classList.add("red");
