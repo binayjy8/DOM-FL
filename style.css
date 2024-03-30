@@ -30,7 +30,10 @@
 #description {
   background-color: antiquewhite;
 } */
-
+.btnStyle {
+  background-color: blue;
+  color: white;
+}
 
 .red {
   color: red;
