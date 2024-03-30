@@ -49,4 +49,4 @@ button.setAttribute("id", "btn");
 input.setAttribute("placeholder", "username");
 
 let btn = document.querySelector("#btn");
-btn.classList.add("#btnStyle");
+btn.classList.add("btnStyle");
