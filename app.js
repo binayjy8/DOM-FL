@@ -18,3 +18,8 @@ para.innerText = "hey i'm red!";
 document.querySelector("body").append(para);
 
 para.classList.add("red");
+
+let h3 = document.createElement("h3");
+h3.innerText = "i'm a blue h3";
+document.querySelector("body").append(h3);
+h3.classList.add("blue");
