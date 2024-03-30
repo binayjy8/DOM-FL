@@ -13,26 +13,34 @@
 //     link.style.color = "gray";
 // }
 
-let para = document.createElement("p");
-para.innerText = "hey i'm red!";
-document.querySelector("body").append(para);
+// let para = document.createElement("p");
+// para.innerText = "hey i'm red!";
+// document.querySelector("body").append(para);
 
-para.classList.add("red");
+// para.classList.add("red");
 
-let h3 = document.createElement("h3");
-h3.innerText = "i'm a blue h3";
-document.querySelector("body").append(h3);
-h3.classList.add("blue");
+// let h3 = document.createElement("h3");
+// h3.innerText = "i'm a blue h3";
+// document.querySelector("body").append(h3);
+// h3.classList.add("blue");
 
-let div = document.createElement("div");
-let h1 = document.createElement("h1");
-let para1 = document.createElement("p");
+// let div = document.createElement("div");
+// let h1 = document.createElement("h1");
+// let para1 = document.createElement("p");
 
-h1.innerText = "i'm in a div";
-para1.innerText ="ME TOO";
+// h1.innerText = "i'm in a div";
+// para1.innerText ="ME TOO";
 
-div.append(h1);
-div.append(para1);
+// div.append(h1);
+// div.append(para1);
 
-div.classList.add("box");
-document.querySelector("body").append(div);
+// div.classList.add("box");
+// document.querySelector("body").append(div);
+
+let button = document.createElement("button");
+let input = document.createElement("input");
+
+button.innerText = "Click Me";
+
+document.querySelector("body").append(input);
+document.querySelector("body").append(button);
