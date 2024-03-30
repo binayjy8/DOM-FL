@@ -47,3 +47,6 @@ document.querySelector("body").append(button);
 
 button.setAttribute("id", "btn");
 input.setAttribute("placeholder", "username");
+
+let btn = document.querySelector("#btn");
+btn.classList.add("#btnStyle");
