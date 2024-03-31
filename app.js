@@ -50,3 +50,5 @@ input.setAttribute("placeholder", "username");
 
 let btn = document.querySelector("#btn");
 btn.classList.add("btnStyle");
+
+let h1 = document.createElement("h1");
